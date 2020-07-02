@@ -1,6 +1,6 @@
 # Calculator-Group-4-LarryTaiye
 
-- [x] Demonstrate inheritance by extending the calculator
+- [ ] Demonstrate inheritance by extending the calculator
 - [ ] Demonstrate inheritance by extending the calculator
 - [ ] Demonstrate encapsulation by having the calculator have methods and a result property
 - [ ] Demonstrate abstraction by layering your code and using static methods.  Object methods should call static methods to perform the operation.
