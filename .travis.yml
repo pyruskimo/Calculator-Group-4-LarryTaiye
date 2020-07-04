@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.8"
+install:
+  - pip install -r Group4requirements.txt
+# script to execute Group4Test
+script:
+  - python -m  unittest discover -s  Group4Test
+
+branches:
+  only:
+    - master
+    - development
