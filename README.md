@@ -1,3 +1,6 @@
+https://travis-ci.com/pyruskimo/Calculator-Group-4-LarryTaiye.svg?branch=master
+
+
 # Calculator-Group-4-LarryTaiye
 
 - [ ] Demonstrate inheritance by extending the calculator
