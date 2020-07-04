@@ -1,4 +1,4 @@
-https://travis-ci.com/pyruskimo/Calculator-Group-4-LarryTaiye.svg?branch=master
+[![Build Status](https://travis-ci.com/pyruskimo/Calculator-Group-4-LarryTaiye.svg?branch=master)]
 
 
 # Calculator-Group-4-LarryTaiye
