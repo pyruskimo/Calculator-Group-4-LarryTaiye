@@ -2,6 +2,8 @@ from Calculator.Calculator import Calculator
 from Statistics.Mean import 
 from Statistics.Median import 
 from Statistics.Mode import 
+from Statistics.stdev import
+
 
 class Statistics(Calculator):
 
@@ -17,3 +19,6 @@ class Statistics(Calculator):
         self.result = mode(data)
         return self.result     
         
+    def stdev(self, data):
+        self.result = stdev(data)
+        return self.result  
