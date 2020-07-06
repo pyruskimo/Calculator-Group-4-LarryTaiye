@@ -43,14 +43,14 @@ def test_add_method_calculator(self):
         for row in test_data:
             result = float(row['Result'])
             self.assertEqual(self.calculator.sq(row['Value 1']), (row['Result']))
-            self.assertEqual(self.calculator.result, (row['Result']))
+            self.assertEqual(self.calculator.result, (row['result']))
        
     def test_sqrt_method_calculator(self):
         test_data = CsvReader("Group4Test/Group4Data/squareroot.csv").data
         for row in test_data:
             result = float(row['Result'])
-            self.assertEqual(self.calculator.sqrt(row['Value 1']), (row['Result'])
-            self.assertEqual(self.calculator.result, (row['Result']))          
+            self.assertEqual(self.calculator.sqrt(row['Value 1']), (row['result'])
+            self.assertEqual(self.calculator.result, (row['result']))          
        
     def test_results_property(self):
         self.assertEqual(self.calculator.result, 0)
