@@ -1,5 +1,7 @@
-from Calculator.Subtraction import subtraction
-from Calculator.Addition import addition
+from Calculator.Addition import subtraction
+from Calculator.Subtraction import addition
+from Calculator.Division import addition
+from Calculator.Multiplication import addition
 
 
 class Calculator:
