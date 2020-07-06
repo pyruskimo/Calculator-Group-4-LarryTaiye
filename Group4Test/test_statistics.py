@@ -33,7 +33,10 @@ class MyTestCase(unittest.TestCase):
      def test_stdev_calculator(self):
         median = self.statistics.stdev(self.testData)
         self.assertEqual(stdev, 4.25)        
-        
+
+     def test_zscore_calculator(self):
+        median = self.statistics.zscore(self.testData)
+        self.assertEqual(zscore, 4.25)          
 
 if __name__ == '__main__':
     unittest.main()
