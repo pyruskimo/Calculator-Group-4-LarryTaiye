@@ -22,19 +22,19 @@ class MyTestCase(unittest.TestCase):
         median = self.statistics.median(self.testData)
         self.assertEqual(median, 4.25)  
         
-     def test_mode_calculator(self):
+    def test_mode_calculator(self):
         median = self.statistics.mode(self.testData)
         self.assertEqual(mode, 4.25)   
         
-     def test_variance_calculator(self):
+    def test_variance_calculator(self):
         median = self.statistics.variance(self.testData)
         self.assertEqual(variance, 4.25)       
         
-     def test_stdev_calculator(self):
+    def test_stdev_calculator(self):
         median = self.statistics.stdev(self.testData)
         self.assertEqual(stdev, 4.25)        
 
-     def test_zscore_calculator(self):
+    def test_zscore_calculator(self):
         median = self.statistics.zscore(self.testData)
         self.assertEqual(zscore, 4.25)          
 
