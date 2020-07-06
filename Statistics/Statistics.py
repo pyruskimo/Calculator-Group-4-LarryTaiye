@@ -3,6 +3,7 @@ from Statistics.Mean import
 from Statistics.Median import 
 from Statistics.Mode import 
 from Statistics.stdev import
+from Statistics.zscore impor
 
 
 class Statistics(Calculator):
@@ -22,3 +23,8 @@ class Statistics(Calculator):
     def stdev(self, data):
         self.result = stdev(data)
         return self.result  
+
+    def zscore(self, data):
+        self.result = zscore(data)
+        return self.result         
+        
