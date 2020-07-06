@@ -2,7 +2,7 @@ import unittest
 from numpy.random import seed
 from numpy.random import randint
 from Statistics.Statistics import Statistics
-from Statistics import Mean
+from Statistics.mean import Mean
 import pprint
 
 
