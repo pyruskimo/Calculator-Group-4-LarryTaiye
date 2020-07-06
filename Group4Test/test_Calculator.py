@@ -23,6 +23,7 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             self.assertEqual(self.calculator.add(row['Value 1']), row['Value 2']), float(row['Result'])
             self.assertEqual(self.calculator.result, float(row['Result']))
+
    
     def test_multiply_method_calculator(self):
         test_data = CsvReader("Group4Test/Group4Data/multiplication.csv").data
@@ -39,9 +40,9 @@ class MyTestCase(unittest.TestCase):
     def test_sq_method_calculator(self):
         test_data = CsvReader("Group4Test/Group4Data/square.csv").data
         for row in test_data:
-            result = float(row['Result'])
-            self.assertEqual(self.calculator.sq(row['Value 1']), (row['Result'])
-            self.assertEqual(self.calculator.result, (row['Result']))   
+        result = float(row['Result'])
+            self.assertEqual(self.calculator.sq(row['Value 1']), (row['Result']))
+            self.assertEqual(self.calculator.result, (row['Result']))
        
     def test_sqrt_method_calculator(self):
         test_data = CsvReader("Group4Test/Group4Data/squareroot.csv").data
