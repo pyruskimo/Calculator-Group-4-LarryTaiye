@@ -1,8 +1,8 @@
 import unittest
 from numpy.random import seed
 from numpy.random import randint
-from Statistics.Statistics import Statistics
-from Statistics.mean import Mean
+# from Statistics.Statistics import Statistics
+import Statistics
 import pprint
 
 
