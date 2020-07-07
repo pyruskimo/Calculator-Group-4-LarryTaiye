@@ -1,6 +1,6 @@
 from Calculator.Addition import addition
 from Calculator.Division import division
-from Calculator.Mutiplication import multiplication
+from Calculator.Multiplication import multiplication
 
 # class Statistics(Calculator): # NameError: name 'mean' is not defined
 
