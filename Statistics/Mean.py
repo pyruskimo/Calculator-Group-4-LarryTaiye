@@ -2,6 +2,8 @@ from Calculator.Addition import addition
 from Calculator.Division import division
 from Calculator.Mutiplication import multiplication
 
+class Statistics(Calculator): # NameError: name 'mean' is not defined
+
 def mean(data):
     num_values = len(data)
     total = 0
