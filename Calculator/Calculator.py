@@ -22,6 +22,6 @@ class Calculator:
         self.result = multiplication(a, b)
         return self.result
     
-    def divide(self, a, b): # If failed, switch b, a
-        self.result = division(b, a)
+    def divide(self, a, b): 
+        self.result = division(a, b)
         return self.result    
