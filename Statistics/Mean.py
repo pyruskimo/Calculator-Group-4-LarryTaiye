@@ -1,6 +1,6 @@
 from Calculator.Addition import addition
 from Calculator.Division import division
-from Calculator.Multiplication import multiplication
+# from Calculator.Multiplication import multiplication
 
 def mean(data):
     num_values = len(data)
