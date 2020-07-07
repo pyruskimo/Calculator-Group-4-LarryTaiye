@@ -1,5 +1,5 @@
 from Calculator.Calculator import Calculator
-from Statistics.Mean import Mean 
+from Statistics import Mean 
 from Statistics.Median import Median
 from Statistics.Mode import Mode
 from Statistics.stdev import stdev
