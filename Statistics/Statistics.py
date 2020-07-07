@@ -1,6 +1,6 @@
 from Calculator.Calculator import Calculator
 from statistics import mean, median, mode, stdev
-from Statistics import zscore
+# from Statistics import zscore
 
 
 class Statistics(Calculator):
@@ -22,7 +22,7 @@ class Statistics(Calculator):
         self.result = Statistics.stdev(data)
         return self.result  
 
-    def zscore(self, data):
-        self.result = Statistics.zscore(data)
-        return self.result         
+#    def zscore(self, data):
+#        self.result = Statistics.zscore(data)
+#        return self.result         
         
