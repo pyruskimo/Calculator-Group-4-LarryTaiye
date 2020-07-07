@@ -6,8 +6,8 @@ from statistics import mean, median, mode, stdev
 class Statistics(Calculator):
 
     def mean(self, data):
-        self.result = Mean(data)
-        # self.result = Statistics.Mean(data)
+        # self.result = Mean(data)
+        self.result = Statistics.Mean(data)
         return self.result
         
     def median(self, data):
