@@ -2,7 +2,6 @@ import unittest
 
 from Calculator.Calculator import Calculator
 from CsvReader.CsvReader import CsvReader
-from Calculator.Mutiplication import multiplication #Added due to error ModuleNotFoundError: No module named 'Calculator.Mutiplication'
 
 
 class MyTestCase(unittest.TestCase):
