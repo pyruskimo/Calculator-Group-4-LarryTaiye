@@ -1,6 +1,6 @@
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
-from Calculator.Mutiplication import multiplication
+from Calculator.Multiplication import multiplication
 
 
 class Calculator:
