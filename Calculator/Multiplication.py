@@ -1,2 +1,2 @@
-def division(a, b):
+def multiplication(a, b):
     return float(b) * float(a)
