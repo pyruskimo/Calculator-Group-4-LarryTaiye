@@ -1,7 +1,7 @@
 
 from Calculator.Addition import addition
 from Calculator.Division import division
-
+from statistics import mean
 
 def mean(data):
     num_values = len(data)
