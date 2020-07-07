@@ -1,15 +1,13 @@
 from Calculator.Calculator import Calculator
-from Statistics import Mean 
-from Statistics.Median import Median
-from Statistics.Mode import Mode
-from Statistics.stdev import stdev
-from Statistics.zscore import zscore
+from statistics import mean, median, mode, stdev
+from Statistics import zscore
 
 
 class Statistics(Calculator):
 
     def mean(self, data):
-        self.result = Statistics.Mean(data)
+        self.result = Mean(data)
+        # self.result = Statistics.Mean(data)
         return self.result
         
     def median(self, data):
