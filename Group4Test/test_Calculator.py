@@ -39,6 +39,14 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.divide(row['Value 1'], row['Value 2']), float(row['Result']))
             self.assertEqual(self.calculator.result, float(row['Result']))         
             
+     def test_square(self):
+        test_data = CsvReader("Group4Test/Group4Data/square.csv").data
+        for row in test_data:
+            result = float(row['Result'])
+            self.assertEqual(self.calculator.sq(row['Value 1'], result)
+            self.assertEqual(self.calculator.result, result)            
+            
+            
     def test_results_property(self):
         self.assertEqual(self.calculator.result, 0)
 
