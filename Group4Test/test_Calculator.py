@@ -35,7 +35,7 @@ class MyTestCase(unittest.TestCase):
     def test_division(self):
         test_data = CsvReader("Group4Test/Group4Data/division.csv").data
         for row in test_data:
-           # result = float(row['Result'])
+            result = float(row['Result'])
             self.assertEqual(self.calculator.division(row['Value 1'], row['Value 2']), float(row['Result']))
             self.assertEqual(self.calculator.result, float(row['Result']))          
             
