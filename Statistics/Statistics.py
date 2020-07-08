@@ -1,7 +1,7 @@
 
 from Calculator.Calculator import Calculator
 from Statistics.Mean import mean
-
+Import math
 
 class Statistics(Calculator):
 
