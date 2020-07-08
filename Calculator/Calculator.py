@@ -1,7 +1,7 @@
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
 from Calculator.Multiplication import multiplication
-from Calculator.Division import divisin
+from Calculator.Division import division
 
 import math
 
