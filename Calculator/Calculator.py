@@ -1,7 +1,8 @@
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
 from Calculator.Multiplication import multiplication
-from Calculator.Division import division
+from Calculator.Division import divisin
+
 import math
 
 
@@ -28,5 +29,9 @@ class Calculator:
         return self.result  
 
     def square(self, a): 
-        self.result = square(a)
+        self.result = square(a, a))
         return self.result  
+    
+    def squareroot(self, base(a)):
+        self.result = square(base(a))
+        return self.result
