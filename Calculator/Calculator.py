@@ -25,3 +25,4 @@ class Calculator:
     def divide(self, a, b): 
         self.result = division(a, b)
         return self.result    
+
