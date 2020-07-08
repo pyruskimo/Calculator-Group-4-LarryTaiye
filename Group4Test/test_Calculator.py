@@ -53,7 +53,6 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             result = float(row['Result'])
             self.assertEqual(self.calculator.squareroot(row['Value 1'], result))
-            # self.assertEqual(self.math.sqrt(row['Value 1'], result))
             self.assertEqual(self.calculator.result, result)              
             
             
