@@ -33,5 +33,5 @@ class Calculator:
         return self.result  
     
     def sqrt(self, base(a)):
-        self.result = square(base(a))
+        self.result = square(math.sqrt(a))
         return self.result
