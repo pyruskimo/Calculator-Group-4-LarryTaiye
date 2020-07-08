@@ -27,6 +27,6 @@ class Calculator:
         self.result = division(a, b)
         return self.result  
 
-    def sq(self, a, b): 
-        self.result = square(a, b)
+    def sq(self, a): 
+        self.result = square(a)
         return self.result  
