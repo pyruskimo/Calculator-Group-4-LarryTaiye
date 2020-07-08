@@ -33,5 +33,6 @@ class Calculator:
         return self.result  
     
     def sqrt(self, a):
-        self.result = square(math.sqrt(a))
+        self.result = square.sqrt(a)
+        # OLD values = self.result = square(math.sqrt(a))
         return self.result
