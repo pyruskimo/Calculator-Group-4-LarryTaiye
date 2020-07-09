@@ -44,7 +44,7 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader("Group4Test/Group4Data/square.csv").data
         for row in test_data:
             result = float(row['Result'])
-            self.assertEqual(self.calculator.square(self.row['Value 1'], result))
+            self.assertEqual(self.calculator(row['Value 1'], result))
             self.assertEqual(self.calculator.result, result)        
 
     # Old values = def test_sqrt(self):
@@ -52,7 +52,7 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader("Group4Test/Group4Data/squareroot.csv").data
         for row in test_data:
             result = float(row['Result'])
-            self.assertEqual(self.math.sqrt(row['Value 1'], result))
+            self.assertEqual(self.calculator(row['Value 1'], result))
             self.assertEqual(self.calculator.result, result)              
             
             
