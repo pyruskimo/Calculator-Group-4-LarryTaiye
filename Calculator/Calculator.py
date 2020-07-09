@@ -31,7 +31,7 @@ class Calculator:
         return self.result  
 
     def square(self, a): 
-        self.result = square(a, a)
+        self.result = square(a)
         return self.result  
     
     def sqrt(self, a):
