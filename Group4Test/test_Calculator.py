@@ -53,8 +53,10 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             result = float(row['Result'])
             self.assertEqual(self.math.sqrt(row['Value 1'], result))
-            # self.assertEqual(self.calculator.result, result)              
+            self.assertEqual(self.calculator.result, result)              
             
+ def wait_and_move_to(self, mode, id):
+    elem = self.wait_and_get(mode, id)
             
     def test_results_property(self):
         self.assertEqual(self.calculator.result, 0)
