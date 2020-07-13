@@ -33,6 +33,8 @@ class Calculator:
         return self.result
 
     def square_root(self, a):
-        a = float(a)
+        a = float(a ** .5)
         self.result = sqrt(a)
-        return self.result
+        return round(self.result, 9)
+
+   
