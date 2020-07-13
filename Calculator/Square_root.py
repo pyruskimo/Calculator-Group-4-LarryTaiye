@@ -6,5 +6,5 @@ from cmath import sqrt
 
 def square_root(a):
     a = sqrt(int(a))
-    return round(a, 9)
+    return float(round(a, 9))
 
