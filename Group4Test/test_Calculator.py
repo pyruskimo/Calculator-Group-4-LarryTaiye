@@ -49,8 +49,10 @@ class MyTestCase(unittest.TestCase):
     def test_square_root(self):
         test_data = CsvReader("Group4Test/Group4Data/square_root.csv").data
         for row in test_data:
-            result = float(row['Result'])
+            # result = float(row['Result'])
+            result = round(row['Result'], 9)
             self.assertEqual(self.calculator.square_root(int(row['Value 1'])), result)
+            #self.assertEqual(self.calculator.result, result)
             self.assertEqual(self.calculator.result, result)
 
     def test_results_property(self):
