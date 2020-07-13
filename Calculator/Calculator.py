@@ -1,4 +1,4 @@
-# from math import sqrt
+from math import sqrt
 from Calculator.Square import square
 from Calculator.Square_root import square_root
 from Calculator.Subtraction import subtraction
@@ -34,5 +34,5 @@ class Calculator:
         return self.result
 
     def square_root(self, a):
-        self.result = square_root(a)
+        self.result = sqrt(a)
         return self.result
