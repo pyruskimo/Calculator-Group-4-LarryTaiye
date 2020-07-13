@@ -52,7 +52,7 @@ class MyTestCase(unittest.TestCase):
             result = row['Result']
             #result = float(row['Result'], 9)
             #print(round((a ** .5), 10
-            self.assertEqual(self.calculator.square_root(int(row['Value 1'])), result)
+            self.assertEqual(self.calculator.square_root(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
 
     def test_results_property(self):
